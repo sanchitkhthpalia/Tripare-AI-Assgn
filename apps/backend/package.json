@@ -1,0 +1,24 @@
+{
+  "name": "@hotel-rate-comparator/backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@hotel-rate-comparator/shared": "*",
+    "@temporalio/client": "^1.11.0",
+    "@temporalio/common": "^1.11.0",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.17",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  }
+}

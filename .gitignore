@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+
+# Temporal CLI binary - install via `brew install temporal` / `winget install temporal`
+temporal.exe
+temporal-cli/
